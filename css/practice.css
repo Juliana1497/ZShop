@@ -35,14 +35,22 @@
 .col-1-2{
    width: 500px;
 }
+div#caja-texto{
+   width: 480px;
+}
+div.row5.wrap-box{
+   height: 450px;
+}
 .wrap-footer{
    width: 1000px;
 }
 .row3{
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
+   gap: 30px;
 }
 label.row4{
-   display: flex;
-   justify-content: space-between;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 20px;
 }
