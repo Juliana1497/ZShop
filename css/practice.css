@@ -1,0 +1,48 @@
+.zerogrid .row1{
+   justify-content: space-between;
+}
+.row1{
+   display: flex;
+   width: 1000px;
+} 
+
+.wrap-container{
+   width: 1000px;
+}
+.zerogrid{
+   display: flex;
+   align-items: center;
+   justify-content:center;
+}
+.fila1{
+   display: grid;
+   grid-template-columns: 400px 600px;
+}
+.fila2{
+   display: grid;
+   grid-template-columns: 600px 400px;
+}
+.fila3{
+   display: grid;
+   grid-template-columns: 500px 500px;
+}
+.col-2-5{
+   width: 400px;
+}
+.col-3-5{
+   width: 600px;
+}
+.col-1-2{
+   width: 500px;
+}
+.wrap-footer{
+   width: 1000px;
+}
+.row3{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+label.row4{
+   display: flex;
+   justify-content: space-between;
+}
