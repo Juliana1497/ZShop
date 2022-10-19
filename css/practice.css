@@ -1,3 +1,4 @@
+/*header*/
 .zerogrid .row1{
    justify-content: space-between;
 }
@@ -5,10 +6,11 @@
    display: flex;
    width: 1000px;
 } 
-
 .wrap-container{
    width: 1000px;
 }
+
+/*body container*/
 .zerogrid{
    display: flex;
    align-items: center;
@@ -41,6 +43,8 @@ div#caja-texto{
 div.row5.wrap-box{
    height: 450px;
 }
+
+/*footer*/
 .wrap-footer{
    width: 1000px;
 }
@@ -49,6 +53,8 @@ div.row5.wrap-box{
    grid-template-columns: 1fr 1fr 1fr;
    gap: 30px;
 }
+
+/* formulario contact*/
 label.row4{
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
